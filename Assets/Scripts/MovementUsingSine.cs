@@ -20,15 +20,15 @@ public class MovementUsingSine : MonoBehaviour
 
         if(choose == 1)
         {
-            transform.position = startPosition + new Vector3(offset, 0, 0); 
+            transform.position = startPosition + new Vector3(offset, 0, offset); 
         }
         else if(choose == 2)
         {
-            transform.position = startPosition + new Vector3(0, offset, 0); 
+            transform.position = startPosition + new Vector3(offset, offset, 0); 
         }
         else
         {
-            transform.position = startPosition + new Vector3(0, 0, offset); 
+            transform.position = startPosition + new Vector3(0, offset, offset); 
         }
 
         

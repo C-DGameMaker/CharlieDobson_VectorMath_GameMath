@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MainMenu.unity
+    guid: 29f169fae559c954fb6863c03d5c5c6f
+  - enabled: 1
+    path: Assets/Scenes/VectorAddition.unity
+    guid: 00d957d35250c8a478769d512fd99864
+  - enabled: 1
+    path: Assets/Scenes/ScalarPosition.unity
+    guid: 87ce567f378e2464e9b284d2fb56f2e2
+  - enabled: 1
+    path: Assets/Scenes/DotPosition.unity
+    guid: c5a8ed4c6efbf7b428d583a5e37af803
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

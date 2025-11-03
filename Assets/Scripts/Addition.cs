@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class Addition : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject cube1;
+    public GameObject cube2;
+
+    static Vector3 startPos;
     void Start()
     {
-        
+        startPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+      
+        transform.position = startPos + cube1.transform.position + cube2.transform.position;
     }
 }

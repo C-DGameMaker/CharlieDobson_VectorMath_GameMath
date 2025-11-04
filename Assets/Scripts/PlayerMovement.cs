@@ -31,9 +31,9 @@ public class PlayerMovement : MonoBehaviour
             movement--;
         }
 
-        transform.position = startPos + new Vector3(movement, 0, movement);
+        transform.position = startPos + new Vector3(0, 0, movement);
 
-        enemyDir = enemyObject.transform.position;
+        enemyDir = (enemyObject.transform.position - transform.position).normalized;
 
         playerDotEnemyDir = Vector3.Dot(transform.forward, enemyDir);
     }
